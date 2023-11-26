@@ -1,5 +1,6 @@
 body {
     margin: 0;
-    background: pink;
-    text-align: center;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
