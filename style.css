@@ -25,13 +25,14 @@ header h1 {
 }
 
 nav {
-    margin-left: auto; /* Pushes the nav to the right */
+    display: flex;
 }
 
 button {
     background-color: #007BFF;
     color: white;
     padding: 10px 20px;
+    margin-left: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
