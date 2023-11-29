@@ -17,14 +17,15 @@ header {
     padding: 1em 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 header h1 {
+    align-items: left;
     margin: 0;
 }
 
 nav {
+    align-items: right;
     margin-left: 20px;
 }
 
