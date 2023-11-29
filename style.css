@@ -17,18 +17,13 @@ header {
     padding: 1em 0;
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 header h1 {
     margin: 0;
+    float: left; /* Align header text to the left */
 }
 
 nav {
-    display: flex;
+    float: right; /* Align the navigation to the right */
 }
 
 button {
