@@ -14,10 +14,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 1em 20px; /* Increase padding for more space */
-    overflow: auto; /* Clear the float */
-
-    /* Use flexbox for better alignment */
+    padding: 1em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,8 +25,7 @@ header h1 {
 }
 
 nav {
-    /* Remove float and add margin for space between the text and buttons */
-    margin-left: 20px;
+    margin-left: auto; /* Pushes the nav to the right */
 }
 
 button {
