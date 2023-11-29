@@ -3,47 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Portfolio</title>
 </head>
 <body>
 
     <header>
-        <h1>Your Website Header</h1>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Web Developer</p>
+        </div>
     </header>
 
-    <div class="container">
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I'm a passionate web developer with a focus on creating
+                user-friendly and responsive websites. I love turning ideas into reality through
+                clean and efficient code.
+            </p>
+        </div>
+    </section>
 
-        <section>
-            <h2>Section Heading</h2>
-            <p>This is a paragraph of text. You can add more content here.</p>
-
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
             <ul>
-                <li>List item 1</li>
-                <li>List item 2</li>
-                <li>List item 3</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <!-- Add more skills as needed -->
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section>
-            <h2>Another Section Heading</h2>
-            <p>Another paragraph of text goes here. Customize as needed.</p>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1 goes here.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2 goes here.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
 
-            <ol>
-                <li>Ordered item 1</li>
-                <li>Ordered item 2</li>
-                <li>Ordered item 3</li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>Image Section</h2>
-            <img src="your-image.jpg" alt="Description of the image">
-        </section>
-
-    </div>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at your.email@example.com</p>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
