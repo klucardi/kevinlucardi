@@ -68,7 +68,7 @@ nav ul li a{
     border-radius: inherit;
     background-color: #d6b4e4;
     padding: 1rem 2rem;
-    translate: 0.25rem -0.25rem;
+    translate: 0.25rem -0.25rem; 
     border: 2px solid #612a79;
     transition: translate 100ms
         cubic-bezier(.175, .885, .32, 1.275),
